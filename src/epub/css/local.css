@@ -1,2 +1,130 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+
+[epub|type~="z3998:poem"] p{
+	text-align: left;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:poem"] p + p{
+	margin-top: 1em;
+}
+
+[epub|type~="z3998:poem"] + p{
+	text-indent: 0;
+}
+
+[epub|type~="z3998:poem"] p > span{
+	display: block;
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+[epub|type~="z3998:poem"] p > span + br{
+	display: none;
+}
+
+p span.i1{
+	text-indent: -1em;
+	padding-left: 2em;
+}
+
+[epub|type~="z3998:letter"] header{
+	margin-bottom: 1em;
+	text-align: right;
+}
+
+#chapter-45 [epub|type~="z3998:letter"] header{
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+[epub|type~="z3998:letter"] footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="z3998:salutation"] + p,
+[epub|type~="z3998:letter"] header + p{
+	text-indent: 0;
+}
+
+[epub|type~="se:letter.dateline"],
+[epub|type~="z3998:sender"],
+[epub|type~="z3998:recipient"],
+[epub|type~="z3998:salutation"]{
+	font-variant: small-caps;
+}
+
+p[epub|type~="z3998:sender"]{
+	text-align: right;
+}
+
+footer [epub|type~="z3998:recipient"]{
+	text-indent: 0;
+	text-align: left;
+}
+
+[epub|type~="z3998:postscript"]{
+	margin-top: 1em;
+	text-indent: 0;
+	text-align: left;
+}
+
+[epub|type~="z3998:drama"]{
+	border-collapse: collapse;
+}
+
+[epub|type~="z3998:drama"] tr:first-child td{
+	padding-top: 0;
+}
+
+[epub|type~="z3998:drama"] tr:last-child td{
+	padding-bottom: 0;
+}
+
+[epub|type~="z3998:drama"] td{
+	vertical-align: top;
+	padding: .5em;
+}
+
+[epub|type~="z3998:drama"] td:last-child{
+	padding-right: 0;
+}
+
+[epub|type~="z3998:drama"] td:first-child{
+	padding-left: 0;
+}
+
+[epub|type~="z3998:drama"] td[epub|type~="z3998:persona"]{
+	hyphens: none;
+	text-align: right;
+	width: 10%;
+}
+
+[epub|type~="z3998:drama"] td p{
+	text-indent: 0;
+}
+
+table[epub|type~="z3998:drama"],
+[epub|type~="z3998:drama"] table{
+	margin: 1em auto;
+}
+
+[epub|type~="z3998:stage-direction"]{
+	font-style: italic;
+}
+
+[epub|type~="z3998:stage-direction"]::before{
+	content: "(";
+	font-style: normal;
+}
+
+[epub|type~="z3998:stage-direction"]::after{
+	content: ")";
+	font-style: normal;
+}
+
+[epub|type~="z3998:persona"]{
+	font-variant: all-small-caps;
+}
