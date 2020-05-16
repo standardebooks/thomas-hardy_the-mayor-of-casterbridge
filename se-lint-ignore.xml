@@ -5,5 +5,9 @@
 			<code>t-005</code>
 			<reason>The flagged text is not dialog.</reason>
 		</ignore>
+		<ignore>
+			<code>t-043</code>
+			<reason>The flagged text is not dialog.</reason>
+		</ignore>
 	</file>
 </se-lint-ignore>
