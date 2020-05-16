@@ -7,7 +7,7 @@
 	text-indent: 0;
 }
 
-[epub|type~="z3998:poem"] p + p{
+[epub|type~="z3998:song"] p + p{
 	margin-top: 1em;
 }
 
@@ -46,6 +46,7 @@ p span.i1{
 	text-align: right;
 }
 
+[epub|type~="z3998:letter"] p + p,
 [epub|type~="z3998:letter"] header + p{
 	text-indent: 0;
 }
