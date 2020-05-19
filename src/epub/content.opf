@@ -58,9 +58,10 @@
 		<meta property="authority" refines="#subject-7">LCSH</meta>
 		<meta property="term" refines="#subject-7">sh2008107582</meta>
 		<meta property="se:subject">Fiction</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">Filled with remorse after abandoning his wife and baby daugther, Michael Henchard, an out-of-work hay-trusser, resolves to set his life on a better path.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;Like many of Hardy’s novels, &lt;i&gt;The Mayor of Casterbridge&lt;/i&gt; is set in the fictional county of Wessex in the mid 1800’s. It begins with Michael Henchard, a young hay-trusser, drunk on rum, auctioning off his wife and baby daughter at a village fair. The next day, overcome with remorse, Henchard resolves to turn his life around. When we meet Henchard eighteen years later, temperance and hard work have made him wealthy and respectable. However, he cannot escape his past. His secret guilt, his pride, and his impulsive temper all serve to sabotage his good name.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Mayor of Casterbridge&lt;/i&gt; was published in 1886, first as a magazine serial and then later that year as a book. It is perhaps most noteworthy for the psychological portrait of Michael Henchard, a tragic character who remains sympathetic while simultaneously being deeply flawed. Typical of other Hardy novels, it also vividly depicts life in the rural countryside at that time.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/143</dc:source>
