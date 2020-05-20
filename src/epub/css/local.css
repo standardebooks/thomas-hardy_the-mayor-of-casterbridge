@@ -41,7 +41,7 @@ p span.i1{
 	text-align: center;
 }
 
-[epub|type~="z3998:letter"] footer{
+footer{
 	margin-top: 1em;
 	text-align: right;
 }
