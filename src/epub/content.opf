@@ -58,6 +58,9 @@
 		<meta property="authority" refines="#subject-7">LCSH</meta>
 		<meta property="term" refines="#subject-7">sh2008107582</meta>
 		<meta property="se:subject">Fiction</meta>
+		<meta id="collection-1" property="belongs-to-collection">The BBC’s 100 greatest British novels (2015)</meta>
+		<meta property="collection-type" refines="#collection-1">set</meta>
+		<meta property="group-position" refines="#collection-1">74</meta>
 		<dc:description id="description">Filled with remorse after abandoning his wife and baby daughter, Michael Henchard, an out-of-work hay-trusser, resolves to set his life on a better path.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Like many of &lt;a href="https://standardebooks.org/ebooks/thomas-hardy"&gt;Hardy’s&lt;/a&gt; novels, &lt;i&gt;The Mayor of Casterbridge&lt;/i&gt; is set in the fictional county of Wessex in the mid 1800s. It begins with Michael Henchard, a young hay-trusser, drunk on rum, auctioning off his wife and baby daughter at a village fair. The next day, overcome with remorse, Henchard resolves to turn his life around. When we meet Henchard eighteen years later, temperance and hard work have made him wealthy and respectable. However, he cannot escape his past. His secret guilt, his pride, and his impulsive temper all serve to sabotage his good name.&lt;/p&gt;
