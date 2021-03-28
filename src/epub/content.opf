@@ -76,7 +76,7 @@
 		<dc:creator id="author">Thomas Hardy</dc:creator>
 		<meta property="file-as" refines="#author">Hardy, Thomas</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Thomas_Hardy</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n79046230</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79046230</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">Asher Brown Durand</dc:contributor>
 		<meta property="file-as" refines="#artist">Durand, Asher Brown</meta>
