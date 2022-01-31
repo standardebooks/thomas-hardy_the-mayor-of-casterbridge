@@ -59,14 +59,14 @@ p[epub|type~="z3998:sender"]{
 }
 
 footer [epub|type~="z3998:recipient"]{
-	text-indent: 0;
 	text-align: initial;
+	text-indent: 0;
 }
 
 [epub|type~="z3998:postscript"]{
 	margin-top: 1em;
-	text-indent: 0;
 	text-align: initial;
+	text-indent: 0;
 }
 
 [epub|type~="z3998:drama"] table{
@@ -84,8 +84,8 @@ footer [epub|type~="z3998:recipient"]{
 }
 
 [epub|type~="z3998:drama"] td{
-	vertical-align: top;
 	padding: .5em;
+	vertical-align: top;
 }
 
 [epub|type~="z3998:drama"] td:last-child{
