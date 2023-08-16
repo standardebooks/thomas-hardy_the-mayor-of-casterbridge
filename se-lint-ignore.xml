@@ -6,7 +6,7 @@
 			<reason>The flagged text is not dialog.</reason>
 		</ignore>
 		<ignore>
-			<code>t-042</code>
+			<code>y-031</code>
 			<reason>The flagged text is not dialog.</reason>
 		</ignore>
 	</file>
