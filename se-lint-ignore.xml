@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
 	<file path="chapter-20.xhtml">
-		<ignore>
-			<code>t-005</code>
+		<ignore code="t-005">
 			<reason>The flagged text is not dialog.</reason>
 		</ignore>
-		<ignore>
-			<code>y-031</code>
+		<ignore code="y-031">
 			<reason>The flagged text is not dialog.</reason>
 		</ignore>
 	</file>
