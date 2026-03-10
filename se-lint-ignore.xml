@@ -2,9 +2,11 @@
 <se-lint-ignore>
 	<file path="chapter-20.xhtml">
 		<ignore code="t-005">
+			<line>18</line>
 			<reason>The flagged text is not dialog.</reason>
 		</ignore>
 		<ignore code="y-031">
+			<line>18</line>
 			<reason>The flagged text is not dialog.</reason>
 		</ignore>
 	</file>
